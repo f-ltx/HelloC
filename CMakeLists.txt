@@ -3,4 +3,4 @@ project(HelloC C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(HelloC main.c Chapter01/HelloWorld.c)
+add_executable(HelloC main.c Chapter01-03/HelloWorld.c)
