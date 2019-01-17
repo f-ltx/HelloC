@@ -19,6 +19,16 @@ int main(void){
     printf("%#o \n",x);
 
 
+    //char
+    char grade ;
+
+    scanf("%c",&grade);
+
+    printf("%c %d \n",grade,grade);
+
+    //printf双引号连接，等价
+    printf(" a " " b " " c ");
+    printf(" a  b  c ");
     return 0;
 }
 void fun2(){                        //定义函数
